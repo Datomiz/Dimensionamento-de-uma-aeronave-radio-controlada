@@ -1,0 +1,88 @@
+
+______________________________
+
+ Análise com T = 20 °C
+             V = 12.5 m/s
+
+Asa 2022
+Perfil aj2190-SRTL10
+Número de Reynolds = 400563.1
+
+Dados de entrada:
+
+ Dimensões:
+lista_Cr = [,0.54,0.54]
+
+lista_Ct = [,0.54,0.24]
+
+lista_b  = [,0.5,1.0]
+
+
+Incidência        = 3 °
+Torção            = 0 °
+Diedro            = 0 °
+Enflechamento(C/2)= 8.5308 °
+Altura da asa     = 0.3 m
+Potência do motor = 700 W
+Atrito das rodas  = 0.0658
+Viscosidade do ar = 1.5092e-05 m²/s
+Densidade do ar   = 1.2044 Kg/m³
+Distância do nariz do avião até a asa = 0.3 m
+
+Dados de Saída:
+
+MAC      = 0.484 m
+CA       = 0.121 m
+b        = 2.0 m
+AR       = 4.135
+TR       = 0.444
+TReff    = 0.76
+S        = 0.967 m²
+S_real   = 0.949 m²
+Swet_asa = 1.944 m²
+Aproximação da área molhada do avião = 3.24 m²
+
+a_asa   = 13 °
+____________________________________
+Sem efeito solo:
+
+CL3     = 1.0377
+CL0     = 0.8046
+CLa     = 0.0777 (1/°)
+CL_max  = 1.8147
+CD3_asa = 0.1053
+CD_asa_max  = 0.2721
+
+CD do avião todo:
+
+CD0     = 0.0572
+CD3     = 0.1382
+CD_max  = 0.3049
+____________________________________
+Com efeito solo:
+
+CL3_g     = 1.0803
+CLa_g     = 0.0919 (1/°)
+CL_max_g  = 1.9993
+CD3_asa_g = 0.0991
+CD_asa_max_g  = 0.2806
+
+CD do avião todo:
+
+CD0_g    = 0.0572
+CD3_g    = 0.132
+CD_max_g = 0.3134
+
+Controle: Muito bom, pode aumentar a corda da asa
+CG está em 27.45 % da corda média da asa
+Verificação do Sadraey: 8.17 % quanto menor melhor!
+Ângulo de subida = 8.43 °
+A asa não entrará em estol
+A distância ente o CG e o CA está aceitável
+
+V_decolagem = 14.0 m/s
+MTOW        = 12.36 Kg
+P_total     = 3.99 Kg
+Carga Paga  = 8.37 Kg
+
+______________________________

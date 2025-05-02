@@ -1,0 +1,88 @@
+
+______________________________
+
+ Análise com T = 20 °C
+             V = 11 m/s
+
+Asa 2023
+Perfil S1223RTL
+Número de Reynolds = 407636.5
+
+Dados de entrada:
+
+ Dimensões:
+lista_Cr = [,0.6,0.6]
+
+lista_Ct = [,0.6,0.4]
+
+lista_b  = [,0.6,1.15]
+
+
+Incidência        = 10 °
+Torção            = 0 °
+Diedro            = 3 °
+Enflechamento(C/2)= 4.9697 °
+Altura da asa     = 0.327 m
+Potência do motor = 700 W
+Atrito das rodas  = 0.0658
+Viscosidade do ar = 1.5092e-05 m²/s
+Densidade do ar   = 1.2044 Kg/m³
+Distância do nariz do avião até a asa = 0.3 m
+
+Dados de Saída:
+
+MAC      = 0.559 m
+CA       = 0.14 m
+b        = 2.3 m
+AR       = 4.112
+TR       = 0.667
+TReff    = 0.855
+S        = 1.286 m²
+S_real   = 1.277 m²
+Swet_asa = 2.659 m²
+Aproximação da área molhada do avião = 4.399 m²
+
+a_asa   = 15 °
+____________________________________
+Sem efeito solo:
+
+CL10     = 1.4996
+CL0     = 0.758
+CLa     = 0.0742 (1/°)
+CL_max  = 1.8705
+CD10_asa = 0.1996
+CD_asa_max  = 0.2965
+
+CD do avião todo:
+
+CD0     = 0.0535
+CD10     = 0.2279
+CD_max  = 0.3249
+____________________________________
+Com efeito solo:
+
+CL10_g     = 1.6407
+CLa_g     = 0.0883 (1/°)
+CL_max_g  = 2.0821
+CD10_asa_g = 0.2001
+CD_asa_max_g  = 0.3069
+
+CD do avião todo:
+
+CD0_g    = 0.0535
+CD10_g    = 0.2285
+CD_max_g = 0.3353
+
+Controle: Muito bom, pode aumentar a corda da asa
+CG está em 26.26 % da corda média da asa
+Verificação do Sadraey: 4.21 % quanto menor melhor!
+Ângulo de subida = 5.08 °
+CUIDADO!!! O ângulo total da asa durante a subida pode estar ultrapassando o ângulo de estol
+A distância ente o CG e o CA está aceitável
+
+V_decolagem = 11.1 m/s
+MTOW        = 15.653 Kg
+P_total     = 4.986 Kg
+Carga Paga  = 10.667 Kg
+
+______________________________
